@@ -1,6 +1,6 @@
 # Dockerfile NuxtJs
 
-The image for download is on [Docker Hub](https://hub.docker.com/repository/docker/ythalocosta99/nuxtjs) version lastes.
+The image for download is on [Docker Hub](https://hub.docker.com/repository/docker/ythalocosta99/nuxtjs) version latest.
 
 ## Run Dockerfile Production
 
