@@ -1,0 +1,6 @@
+.idea
+.nuxt
+.git
+.env
+.vscode
+node_modules
