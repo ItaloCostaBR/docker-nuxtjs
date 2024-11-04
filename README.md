@@ -5,7 +5,7 @@ The image for download is on [Docker Hub](https://hub.docker.com/repository/dock
 ## Run Dockerfile Production
 
 ### Generate Image
-Run `docker build -t NAME_IMAGE .` for create the image.
+Run `docker build -t NAME_IMAGE:TAG .` for create the image.
     
 ### Run The Image
-Run `docker run -p 3000:3000 --env-file .env -d NAME_IMAGE` for run the image.
+Run `docker run --name NAME_IMAGE -p 3000:3000 --env-file .env -d NAME_IMAGE:TAG` for run the image.
